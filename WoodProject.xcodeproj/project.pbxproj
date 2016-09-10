@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71289E371D25D203007A2C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71289E361D25D203007A2C79 /* main.m */; };
+		71289E3A1D25D203007A2C79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71289E391D25D203007A2C79 /* AppDelegate.m */; };
+		71289E3D1D25D203007A2C79 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71289E3C1D25D203007A2C79 /* RootViewController.m */; };
+		71289E401D25D203007A2C79 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71289E3F1D25D203007A2C79 /* DataViewController.m */; };
+		71289E431D25D203007A2C79 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71289E421D25D203007A2C79 /* ModelController.m */; };
+		71289E461D25D203007A2C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71289E441D25D203007A2C79 /* Main.storyboard */; };
+		71289E481D25D203007A2C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71289E471D25D203007A2C79 /* Assets.xcassets */; };
+		71289E4B1D25D203007A2C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71289E491D25D203007A2C79 /* LaunchScreen.storyboard */; };
+		71289E561D25D204007A2C79 /* WoodProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71289E551D25D204007A2C79 /* WoodProjectTests.m */; };
+		71289E611D25D204007A2C79 /* WoodProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71289E601D25D204007A2C79 /* WoodProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71289E521D25D204007A2C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71289E2A1D25D203007A2C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71289E311D25D203007A2C79;
+			remoteInfo = WoodProject;
+		};
+		71289E5D1D25D204007A2C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71289E2A1D25D203007A2C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71289E311D25D203007A2C79;
+			remoteInfo = WoodProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71289E321D25D203007A2C79 /* WoodProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71289E361D25D203007A2C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71289E381D25D203007A2C79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71289E391D25D203007A2C79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71289E3B1D25D203007A2C79 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		71289E3C1D25D203007A2C79 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		71289E3E1D25D203007A2C79 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		71289E3F1D25D203007A2C79 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		71289E411D25D203007A2C79 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		71289E421D25D203007A2C79 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		71289E451D25D203007A2C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71289E471D25D203007A2C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71289E4A1D25D203007A2C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71289E4C1D25D203007A2C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71289E511D25D204007A2C79 /* WoodProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoodProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71289E551D25D204007A2C79 /* WoodProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoodProjectTests.m; sourceTree = "<group>"; };
+		71289E571D25D204007A2C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71289E5C1D25D204007A2C79 /* WoodProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoodProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71289E601D25D204007A2C79 /* WoodProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoodProjectUITests.m; sourceTree = "<group>"; };
+		71289E621D25D204007A2C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71289E2F1D25D203007A2C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71289E4E1D25D204007A2C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71289E591D25D204007A2C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71289E291D25D203007A2C79 = {
+			isa = PBXGroup;
+			children = (
+				71289E341D25D203007A2C79 /* WoodProject */,
+				71289E541D25D204007A2C79 /* WoodProjectTests */,
+				71289E5F1D25D204007A2C79 /* WoodProjectUITests */,
+				71289E331D25D203007A2C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71289E331D25D203007A2C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71289E321D25D203007A2C79 /* WoodProject.app */,
+				71289E511D25D204007A2C79 /* WoodProjectTests.xctest */,
+				71289E5C1D25D204007A2C79 /* WoodProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71289E341D25D203007A2C79 /* WoodProject */ = {
+			isa = PBXGroup;
+			children = (
+				71289E381D25D203007A2C79 /* AppDelegate.h */,
+				71289E391D25D203007A2C79 /* AppDelegate.m */,
+				71289E3B1D25D203007A2C79 /* RootViewController.h */,
+				71289E3C1D25D203007A2C79 /* RootViewController.m */,
+				71289E3E1D25D203007A2C79 /* DataViewController.h */,
+				71289E3F1D25D203007A2C79 /* DataViewController.m */,
+				71289E411D25D203007A2C79 /* ModelController.h */,
+				71289E421D25D203007A2C79 /* ModelController.m */,
+				71289E441D25D203007A2C79 /* Main.storyboard */,
+				71289E471D25D203007A2C79 /* Assets.xcassets */,
+				71289E491D25D203007A2C79 /* LaunchScreen.storyboard */,
+				71289E4C1D25D203007A2C79 /* Info.plist */,
+				71289E351D25D203007A2C79 /* Supporting Files */,
+			);
+			path = WoodProject;
+			sourceTree = "<group>";
+		};
+		71289E351D25D203007A2C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71289E361D25D203007A2C79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71289E541D25D204007A2C79 /* WoodProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				71289E551D25D204007A2C79 /* WoodProjectTests.m */,
+				71289E571D25D204007A2C79 /* Info.plist */,
+			);
+			path = WoodProjectTests;
+			sourceTree = "<group>";
+		};
+		71289E5F1D25D204007A2C79 /* WoodProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71289E601D25D204007A2C79 /* WoodProjectUITests.m */,
+				71289E621D25D204007A2C79 /* Info.plist */,
+			);
+			path = WoodProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71289E311D25D203007A2C79 /* WoodProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71289E651D25D204007A2C79 /* Build configuration list for PBXNativeTarget "WoodProject" */;
+			buildPhases = (
+				71289E2E1D25D203007A2C79 /* Sources */,
+				71289E2F1D25D203007A2C79 /* Frameworks */,
+				71289E301D25D203007A2C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoodProject;
+			productName = WoodProject;
+			productReference = 71289E321D25D203007A2C79 /* WoodProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71289E501D25D204007A2C79 /* WoodProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71289E681D25D204007A2C79 /* Build configuration list for PBXNativeTarget "WoodProjectTests" */;
+			buildPhases = (
+				71289E4D1D25D204007A2C79 /* Sources */,
+				71289E4E1D25D204007A2C79 /* Frameworks */,
+				71289E4F1D25D204007A2C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71289E531D25D204007A2C79 /* PBXTargetDependency */,
+			);
+			name = WoodProjectTests;
+			productName = WoodProjectTests;
+			productReference = 71289E511D25D204007A2C79 /* WoodProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71289E5B1D25D204007A2C79 /* WoodProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71289E6B1D25D204007A2C79 /* Build configuration list for PBXNativeTarget "WoodProjectUITests" */;
+			buildPhases = (
+				71289E581D25D204007A2C79 /* Sources */,
+				71289E591D25D204007A2C79 /* Frameworks */,
+				71289E5A1D25D204007A2C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71289E5E1D25D204007A2C79 /* PBXTargetDependency */,
+			);
+			name = WoodProjectUITests;
+			productName = WoodProjectUITests;
+			productReference = 71289E5C1D25D204007A2C79 /* WoodProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71289E2A1D25D203007A2C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wood;
+				TargetAttributes = {
+					71289E311D25D203007A2C79 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					71289E501D25D204007A2C79 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 71289E311D25D203007A2C79;
+					};
+					71289E5B1D25D204007A2C79 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 71289E311D25D203007A2C79;
+					};
+				};
+			};
+			buildConfigurationList = 71289E2D1D25D203007A2C79 /* Build configuration list for PBXProject "WoodProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71289E291D25D203007A2C79;
+			productRefGroup = 71289E331D25D203007A2C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71289E311D25D203007A2C79 /* WoodProject */,
+				71289E501D25D204007A2C79 /* WoodProjectTests */,
+				71289E5B1D25D204007A2C79 /* WoodProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71289E301D25D203007A2C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71289E4B1D25D203007A2C79 /* LaunchScreen.storyboard in Resources */,
+				71289E481D25D203007A2C79 /* Assets.xcassets in Resources */,
+				71289E461D25D203007A2C79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71289E4F1D25D204007A2C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71289E5A1D25D204007A2C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71289E2E1D25D203007A2C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71289E401D25D203007A2C79 /* DataViewController.m in Sources */,
+				71289E3A1D25D203007A2C79 /* AppDelegate.m in Sources */,
+				71289E431D25D203007A2C79 /* ModelController.m in Sources */,
+				71289E371D25D203007A2C79 /* main.m in Sources */,
+				71289E3D1D25D203007A2C79 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71289E4D1D25D204007A2C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71289E561D25D204007A2C79 /* WoodProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71289E581D25D204007A2C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71289E611D25D204007A2C79 /* WoodProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71289E531D25D204007A2C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71289E311D25D203007A2C79 /* WoodProject */;
+			targetProxy = 71289E521D25D204007A2C79 /* PBXContainerItemProxy */;
+		};
+		71289E5E1D25D204007A2C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71289E311D25D203007A2C79 /* WoodProject */;
+			targetProxy = 71289E5D1D25D204007A2C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71289E441D25D203007A2C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71289E451D25D203007A2C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71289E491D25D203007A2C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71289E4A1D25D203007A2C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71289E631D25D204007A2C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71289E641D25D204007A2C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71289E661D25D204007A2C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WoodProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.WoodProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71289E671D25D204007A2C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WoodProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.WoodProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71289E691D25D204007A2C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoodProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.WoodProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoodProject.app/WoodProject";
+			};
+			name = Debug;
+		};
+		71289E6A1D25D204007A2C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoodProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.WoodProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoodProject.app/WoodProject";
+			};
+			name = Release;
+		};
+		71289E6C1D25D204007A2C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoodProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.WoodProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoodProject;
+			};
+			name = Debug;
+		};
+		71289E6D1D25D204007A2C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoodProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.WoodProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoodProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71289E2D1D25D203007A2C79 /* Build configuration list for PBXProject "WoodProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71289E631D25D204007A2C79 /* Debug */,
+				71289E641D25D204007A2C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71289E651D25D204007A2C79 /* Build configuration list for PBXNativeTarget "WoodProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71289E661D25D204007A2C79 /* Debug */,
+				71289E671D25D204007A2C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71289E681D25D204007A2C79 /* Build configuration list for PBXNativeTarget "WoodProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71289E691D25D204007A2C79 /* Debug */,
+				71289E6A1D25D204007A2C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71289E6B1D25D204007A2C79 /* Build configuration list for PBXNativeTarget "WoodProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71289E6C1D25D204007A2C79 /* Debug */,
+				71289E6D1D25D204007A2C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71289E2A1D25D203007A2C79 /* Project object */;
+}
